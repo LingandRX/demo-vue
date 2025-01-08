@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import MusicPlay from './components/MusicPlay.vue';
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
@@ -14,6 +15,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <main>
 <!--    <TheWelcome />-->
+    <MusicPlay></MusicPlay>
   </main>
 </template>
 
